@@ -1,0 +1,22 @@
+# ===== 构建产物（不上传）=====
+build/
+cmake-build-debug/
+cmake-build-*/
+*.obj
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.su
+
+# ===== IDE 配置 =====
+.idea/
+.run/
+.vscode/
+*.ioc.bak
+
+# ===== 系统文件 =====
+Thumbs.db
+desktop.ini
+*.log
